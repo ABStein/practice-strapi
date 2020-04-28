@@ -1,0 +1,14 @@
+query Albums {  
+  albums {
+    id
+    name
+    description
+    image {
+      url
+    }
+    genres {
+      id
+      name
+    }
+  }
+}
